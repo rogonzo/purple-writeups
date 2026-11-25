@@ -11,6 +11,7 @@ the detection fires → note how to improve both sides.**
 |---|-------|--------|-----------|--------|
 | 001 | [Port scan with netrecon](writeups/001-netrecon-portscan/) | `netrecon` | `port_scan_burst` | T1046 |
 | 002 | [SSH brute force](writeups/002-ssh-bruteforce/) | `hydra` | `ssh_bruteforce` | T1110.001 |
+| 003 | [Slow scan evasion](writeups/003-slow-scan-evasion/) | `netrecon --delay` | `slow_scan` | T1046 |
 
 ## Why this exists
 Running a tool proves you can follow steps. Pairing the attack with its
